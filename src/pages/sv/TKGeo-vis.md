@@ -6,10 +6,38 @@ layout: ../../layouts/MainLayout.astro
 
 Här följer en beskrivning för hur TKGeo-vis utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
 
+## Uppladdning och underlag
+
+### Felkällor
+
+Samtliga uppladdningar utgår från .snd filer, det vill säga filer från geosuite där dessa redan har utvärderats utgående från rådata.
+
+Det medför att eventuella felkällor som härrör härifrån också följer med i utvärderingen av materialparametrar i **TKGeo-vis**.
+
+Kända fel som kan uppstå är fel uppmätt interval vid registrering av halvvarv vid viktsondering eller vid registrering av slag vid hejarsondering.
+
+Vidare utvärderas CPT-sonderingarna **inte** för det korrigerade spetstrycket då detta ej heller görs i geosuite. Det vill säga ingen hänsyn tas till det portryck som skapas kring CPT-sonden. Detta påverkar framförallt utvärderingen finkornigare jordar men har **mindre** betydelse i grövre jordar där portrycket ej blir särskilt högt.
+
+### Metod
+
+Vid utvärderingarna läses först snd-filerna in och för varje mätvärde beräknas en korresponderade friktionsvinkel och E-modul enligt TK Geo 13 för vikt, hejjare och CPT-sondering. För en trycksondering beräknas denna enligt **SGI Handbok i plattgrundläggning**
+
+Denna utvärdering görs för enkelhetens skull för samtliga beräkningsfall, det vill säga för en sand, silt och grus. Därefter laddas dessa utvärderingar upp i en databas som sedan kan
+
 ## TK-GEO 13 Friktionsvinkel
-Friktionsvinkeln i TKGeo-vis utvärderas enligt 
+
+I TKGeovis ges möjligheten att utvärdera friktionsvinkeln för en silt, sand eller grus. Denna utvärderas då på samma sätt som enligt TK Geo 13 och nedan urklipp.
+
+#### Skillnader
+
+Programmet utgår från databasfiler från geosuite, det vill säga
+
+#### Ej implementerat
+
+Däremot ges inte möjligheten att utvärdera friktionsvinkeln för en packad jord. Detta har inte implementerats men om detta efterfrågas är det genomförbart.
 
 ![A starry night sky.](/assets/fr_tkgeo.png)
+_Urklipp TK Geo 13 för utvärdering av friktionsvinkel_
 
 ## Section B
 
