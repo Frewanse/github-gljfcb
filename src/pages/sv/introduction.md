@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: Docs intro
+title: Intro
+description: Vad som kan förväntas
 layout: ../../layouts/MainLayout.astro
 ---
 
