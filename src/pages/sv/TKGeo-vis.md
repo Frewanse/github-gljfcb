@@ -6,7 +6,7 @@ layout: ../../layouts/MainLayout.astro
 
 Här följer en beskrivning för hur TKGeo-vis utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
 
-## Uppladdning och underlag
+## Utvärdering och underlag
 
 ### Felkällor
 
@@ -18,15 +18,21 @@ Kända fel som kan uppstå är fel uppmätt interval vid registrering av halvvar
 
 Vidare utvärderas CPT-sonderingarna **inte** för det korrigerade spetstrycket då detta ej heller görs i geosuite. Det vill säga ingen hänsyn tas till det portryck som skapas kring CPT-sonden. Detta påverkar framförallt utvärderingen finkornigare jordar men har **mindre** betydelse i grövre jordar där portrycket ej blir särskilt högt.
 
-### Metod
 
-Vid utvärderingarna läses först snd-filerna in och för varje mätvärde beräknas en korresponderade friktionsvinkel och E-modul enligt TK Geo 13 för vikt, hejjare och CPT-sondering. För en trycksondering beräknas denna enligt **SGI Handbok i plattgrundläggning**
 
-Denna utvärdering görs för enkelhetens skull för samtliga beräkningsfall, det vill säga för en sand, silt och grus. Därefter laddas dessa utvärderingar upp i en databas som sedan kan
+
+
+### Metod vid utvärdering av E-modul och friktionsvinkel
+
+Vid utvärderingarna läses först snd-filerna in och för varje mätvärde beräknas en korresponderade friktionsvinkel och E-modul enligt **TK Geo 13** för vikt, hejjare och CPT-sondering. För en trycksondering beräknas denna enligt **SGI Handbok i plattgrundläggning**. 
+
+Denna utvärdering görs för enkelhetens skull för samtliga beräkningsfall, det vill säga för en sand, silt och grus. När detta är utfört laddas dessa upp till en databas med tillhörande projekt. 
+
+Vid utvärdering av materialparametrar vid viktsondering och slag finns inget samband i TK Geo eller annan litteratur som är känd för författaren. Vid utvärdering i TKGeo-vis ges dock möjligheten att ansätta ett värde vid utvärderingen för både friktionsvinkel och E-modul.
 
 ## TK-GEO 13 Friktionsvinkel
 
-I TKGeovis ges möjligheten att utvärdera friktionsvinkeln för en silt, sand eller grus. Denna utvärderas då på samma sätt som enligt TK Geo 13 och nedan urklipp.
+I TKGeo-vis ges möjligheten att utvärdera friktionsvinkeln för en silt, sand eller grus. Denna utvärderas då på samma sätt som enligt TK Geo 13 och nedan urklipp.
 
 #### Skillnader
 
