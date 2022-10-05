@@ -9,7 +9,7 @@ Här följer en beskrivning för hur TKGeo-vis utvärderar hejjar, vikt, tryck o
 
 ## TK-GEO 13 Friktionsvinkel
 
-![alt text](http://url/to/img.png)
+![alt text](fr_tkgeo.png)
 
 ## Section B
 
