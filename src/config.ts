@@ -49,7 +49,7 @@ export const SIDEBAR: Sidebar = {
   sv: {
     Allmänt: [{ text: 'Introduction', link: 'sv/introduction' }],
     Programvara: [
-      { text: 'Page 4', link: 'sv/TKVis' },
+      { text: 'Page 4', link: 'sv/TKGeo-vis' },
       { text: 'Page 2', link: 'sv/page-2' },
       { text: 'Page 3', link: 'sv/page-3' },
     ],
