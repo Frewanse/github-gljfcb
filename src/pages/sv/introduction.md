@@ -4,9 +4,9 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-**Welcome to Astro!**
+**Stig på!**
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
+Det här ett försök att samla så mycket relevant geoteknik som möjligt i ett smidigt uppslagsverk. It contains all of the features that you need to build a Markdown-powered documentation site, including:
 
 - ✅ **Full Markdown support**
 - ✅ **Responsive mobile-friendly design**
