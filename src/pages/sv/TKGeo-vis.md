@@ -6,10 +6,10 @@ layout: ../../layouts/MainLayout.astro
 
 Här följer en beskrivning för hur TKGeo-vis utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
 
-
 ## TK-GEO 13 Friktionsvinkel
+Friktionsvinkeln i TKGeo-vis utvärderas enligt 
 
-![alt text](fr_tkgeo.png)
+![A starry night sky.](/assets/fr_tkgeo.png)
 
 ## Section B
 
