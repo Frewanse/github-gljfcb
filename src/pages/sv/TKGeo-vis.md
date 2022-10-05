@@ -1,10 +1,10 @@
 ---
-title: Page 4
+title: TKGeo-vis
 description: Lorem ipsum dolor sit amet - 4
 layout: ../../layouts/MainLayout.astro
 ---
 
-This is a fully-featured page, written in Markdown!
+Här följer en manual för hur programmet utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
 
 ## Section A
 
