@@ -4,11 +4,12 @@ description: Lorem ipsum dolor sit amet - 4
 layout: ../../layouts/MainLayout.astro
 ---
 
-Här följer en manual för hur programmet utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
+Här följer en beskrivning för hur TKGeo-vis utvärderar hejjar, vikt, tryck och - CPT sonderingar för en jord som kan klassificieras som sand, silt eller grus. Materialparametrar utvärderas för samtliga enligt TK-Geo 13 med undantag för trycksondering där denna utvärderas enligt SGI handbook i plattgrundläggning.
 
-## Section A
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**. Sed ut tortor _suscipit_, posuere ante id, vulputate urna. Pellentesque molestie aliquam dui sagittis aliquet. Sed sed felis convallis, lacinia lorem sit amet, fermentum ex. Etiam hendrerit mauris at elementum egestas. Vivamus id gravida ante. Praesent consectetur fermentum turpis, quis blandit tortor feugiat in. Aliquam erat volutpat. In elementum purus et tristique ornare. Suspendisse sollicitudin dignissim est a ultrices. Pellentesque sed ipsum finibus, condimentum metus eget, sagittis elit. Sed id lorem justo. Vivamus in sem ac mi molestie ornare.
+## TK-GEO 13 Friktionsvinkel
+
+![alt text](http://url/to/img.png)
 
 ## Section B
 
