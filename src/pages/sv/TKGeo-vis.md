@@ -38,8 +38,12 @@ Programmet utgår från databasfiler från geosuite, det vill säga
 
 Däremot ges inte möjligheten att utvärdera friktionsvinkeln för en packad jord. Detta har inte implementerats men om detta efterfrågas är det genomförbart.
 
+#### Friktionsvinkel
+
 ![Friktionsvinkel TKGeo.](/assets/fr_tkgeo.png)
 _Urklipp TK Geo för utvärdering av friktionsvinkel_
+
+#### E-modul
 
 ![E-modul TKGeo.](/assets/E_tkgeo1.png)
 _Urklipp TK Geo för utvärdering av Emodul_
